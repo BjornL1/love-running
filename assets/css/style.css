@@ -65,13 +65,13 @@ h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
+
 }
 
 #cover-text,
 #cover-text h2 {
-    color: #fff;
+    color: #ffffff;
 }
 
 
@@ -114,8 +114,8 @@ h2 {
 
     bottom: 30px;
     right: 150px;
-
     position: absolute;
+
 }
 
 #club ethos {
@@ -249,7 +249,7 @@ footer {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -282,12 +282,12 @@ footer {
         padding: 0;
     }
 
-        #times>div {
-            width: 100%;
-            clear: both;
-            height: 150px;
-            padding: 0;
-        }
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 
     hr {
         display: none;
@@ -305,14 +305,15 @@ footer {
         line-height: 25px;
     }
 
+    #cover-text {
+        left: 0;
+    }
+
     #photos {
         column-count: 3;
     }
 }
 
-#cover-text {
-    left: 0;
-}
 
 #club-ethos {
     width: 90%;
